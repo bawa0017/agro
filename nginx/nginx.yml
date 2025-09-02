@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment
   labels:
-    app: nginx
+    app: agro
 spec:
   replicas: 1 # Specifies the desired number of Nginx pods
   selector:
