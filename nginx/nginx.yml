@@ -8,11 +8,11 @@ spec:
   replicas: 1 # Specifies the desired number of Nginx pods
   selector:
     matchLabels:
-      app: agro
+      app: nginx
   template:
     metadata:
       labels:
-        app: agro
+        app: nginx
     spec:
       containers:
       - name: nginx
